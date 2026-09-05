@@ -1,0 +1,16 @@
+name: Documentation
+description: Report missing or unclear documentation.
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Document path or URL
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What is unclear and what should change?
+    validations:
+      required: true
